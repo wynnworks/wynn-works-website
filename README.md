@@ -1,1 +1,1 @@
-# Wynn Works Website with FormSubmit and Thank You Page
+# Final Wynn Works Site with validated Next.js structure.

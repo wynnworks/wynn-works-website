@@ -8,7 +8,7 @@ export default function HomePage() {
         <title>Wynn Works LLC</title>
         <link rel="icon" href="/favicon.ico" />
         <script
-          dangerouslySetInnerHTML={{
+          dangerouslySetInnerHTML={
             __html: `
               (function(c,l,a,r,i,t,y){
                   c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -16,7 +16,7 @@ export default function HomePage() {
                   y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
               })(window, document, "clarity", "script", "r8ajdgs8qk");
             `,
-          }}
+          }
         />
       </Head>
 
@@ -55,7 +55,8 @@ export default function HomePage() {
 
             <section>
               <h2 className="text-2xl font-semibold mb-2">Contact</h2>
-              <form action="https://formsubmit.io/send/info@wynnworksco.com" method="POST" className="grid gap-4 mt-4">
+              <form action="https://formspree.io/f/manoyevg" method="POST" className="grid gap-4 mt-4">
+                <input type="hidden" name="_redirect" value="https://wynnworksco.com/thank-you" />
                 <input type="text" name="name" placeholder="Your Name" required className="border p-2 rounded" />
                 <input type="email" name="email" placeholder="Your Email" required className="border p-2 rounded" />
                 <textarea name="message" placeholder="Your Message" rows="5" className="border p-2 rounded"></textarea>

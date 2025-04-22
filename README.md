@@ -1,1 +1,1 @@
-# Final Wynn Works Site with validated Next.js structure.
+# Formspree-integrated version of Wynn Works website

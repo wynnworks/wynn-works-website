@@ -57,15 +57,15 @@ export default function HomePage() {
 
             <section>
               <h2 className="text-2xl font-semibold mb-2">Contact</h2>
-              <form name="contact" method="POST" data-netlify="true" className="grid gap-4 mt-4">
-                <input type="hidden" name="form-name" value="contact" />
-                <input type="text" name="name" placeholder="Your Name" required className="border p-2 rounded" />
-                <input type="email" name="email" placeholder="Your Email" required className="border p-2 rounded" />
-                <textarea name="message" placeholder="Your Message" rows="5" className="border p-2 rounded"></textarea>
-                <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">
-                  Send Message
-                </button>
-              </form>
+            <form action="https://formsubmit.io/send/info@wynnworksco.com" method="POST" className="grid gap-4 mt-4">
+              <input type="hidden" name="_redirect" value="https://wynnworksco.com/thank-you" />
+              <input type="text" name="name" placeholder="Your Name" required className="border p-2 rounded" />
+              <input type="email" name="email" placeholder="Your Email" required className="border p-2 rounded" />
+              <textarea name="message" placeholder="Your Message" rows="5" className="border p-2 rounded"></textarea>
+              <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">
+                Send Message
+              </button>
+            </form>
             </section>
 
             <div className="text-center mt-8">

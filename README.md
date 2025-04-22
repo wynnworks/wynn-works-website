@@ -1,3 +1,1 @@
-# Wynn Works LLC Website
-
-Includes contact form, tracking, and favicon.
+# Final build for Wynn Works LLC website including contact form, favicon, and Clarity tracking.

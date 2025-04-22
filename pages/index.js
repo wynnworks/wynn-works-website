@@ -7,17 +7,19 @@ export default function HomePage() {
       <Head>
         <title>Wynn Works LLC</title>
         <link rel="icon" href="/favicon.ico" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(c,l,a,r,i,t,y){
-                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-              })(window, document, "clarity", "script", "YOUR_CLARITY_PROJECT_ID");
-            `,
-          }}
-        />
+        
+<script
+  dangerouslySetInnerHTML={
+    __html: `
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "r8ajdgs8qk");
+    `,
+  }
+/>
+
       </Head>
 
       <main className="min-h-screen bg-white text-gray-900 p-6">

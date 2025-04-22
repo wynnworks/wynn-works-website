@@ -1,1 +1,1 @@
-# Formspree-integrated version of Wynn Works website
+# Final Formspree Version – Clean Next.js App

@@ -1,1 +1,1 @@
-# Final Formspree Version – Clean Next.js App
+# Safe build for Wynn Works LLC with Formspree

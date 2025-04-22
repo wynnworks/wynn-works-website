@@ -1,3 +1,4 @@
+
 export default function ThankYou() {
   return (
     <main className="min-h-screen bg-white text-center p-10">

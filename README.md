@@ -1,1 +1,1 @@
-# Updated Wynn Works site with new Clarity project ID
+Final version with Clarity + fixed favicon

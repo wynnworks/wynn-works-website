@@ -1,1 +1,1 @@
-Final version with Clarity + fixed favicon
+Wynn Works modern styled website with Tailwind, city skyline hero, and service icons.
